@@ -22,7 +22,7 @@ export default function Home() {
       let interval;
       if (auto) {
           interval = setInterval(() => {
-              incrementCounter();
+              inc();
           }, 1000); 
       } else {
           clearInterval(interval); 
